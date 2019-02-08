@@ -7,12 +7,17 @@ public class Dispenser : MonoBehaviour
     public GameObject[] inventoryItems;      // List of items that are in the dispenser
     public Transform dispensePosition;  // Position where the items were come out
 
+    public AudioClip audioClip;
+    public AudioSource audioSource;
+
     /// <summary>
     /// Use this method to dispense the item.
     /// </summary>
     /// <param name="itemNumber">ID of the item in the </param>
     public void Dispense(int itemNumber)
     {
+        audioSource.PlayOneShot(audioClip,1);
+
         // Dispense an object here using the Instantiate<> function
         //Dispense an object here  Instantiate<GameObject>  urgeljluul
         GameObject newGameObject = Instantiate<GameObject>(inventoryItems[itemNumber]);
