@@ -71,3 +71,7 @@ TUBaseProject01/Assembly-CSharp\.csproj
 another hm/Library/
 another hm/
 Project/Library/
+*.csproj
+*.sln
+Coding 2 (Dispenser)/Library/
+Coding 2 (Dispenser)/Logs/Packages-Update.log
