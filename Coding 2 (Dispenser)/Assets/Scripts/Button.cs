@@ -22,7 +22,7 @@ public class Button : MonoBehaviour
     public void OnButtonPressed()
     {
         audioSource.PlayOneShot(audioClip, 1);
-
+        
         // Let the dispenser/listener know that it should dispense an item
         buttonPressedEvent.Invoke(itemNumber);
     }
