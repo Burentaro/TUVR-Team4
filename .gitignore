@@ -75,3 +75,8 @@ Project/Library/
 *.sln
 Coding 2 (Dispenser)/Library/
 Coding 2 (Dispenser)/Logs/Packages-Update.log
+Project/Logs/
+Project/Packages/
+Final Project/Library/
+Final Project/Logs/Packages-Update.log
+Final Project/Packages/manifest.json
